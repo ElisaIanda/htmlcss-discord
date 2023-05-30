@@ -29,13 +29,23 @@ header nav .container{
 }
 
 .bg-grey{
-    background-color: #d3d3d3;
+    background-color: #f6f6f6;    
+    margin-top: -10px;
 }
+
+.wave-1hkxOo{
+    color: #f6f6f6;    
+}
+
+.rotate{
+    rotate: 180deg;   
+}
+
+
 
 .nav-links, 
 .nav-logo,
 .nav-login{
-    border: 1px dashed black;
     padding: .5rem;
 }
 .nav-logo,
@@ -64,12 +74,22 @@ header nav .container{
     text-decoration: none;
     color: white;
 }
+.nav-links ul a:hover {
+    color: #23272a;
+    font-weight: bold;
+    opacity: 0.7;
+}
 
 .btn{
     border-radius: 15px;
     padding: 0.6rem 0.8rem;
     border: none;
 }
+
+.btn:hover {
+    opacity: 0.7;
+}
+
 .btn-small{
     height: 30px;
     line-height: 10px;
@@ -85,10 +105,9 @@ header nav .container{
 
 .hero-section .container{
     max-width: 680px;
-    border: 1px dashed black;
     padding: 50px;
-    min-height: 350px;
 }
+
 .container h1{
     font-size: 50px;
     text-align: center;
@@ -99,6 +118,8 @@ header nav .container{
     font-size: 18px;
     text-align: center;
     color: #ffffff;
+    padding-bottom: 5px;
+
 }
 .btn-hero-section{
     text-align: center;
@@ -142,7 +163,6 @@ section{
 }
 
 .last-section-main{
-    border: 1px dashed black;
     padding: 10px;
 }
 
@@ -184,34 +204,95 @@ section{
     font-size: 14px;
 }
 
-
-
-
 footer{
     background-color:#23272a ;
     padding-top: 6px;
 }
 
+.container .row{
+    margin-top: 40px;
+}
+
+.col h4{
+    color: #7289da;
+    font-size: 25px;
+    padding-bottom: 15px;
+}
+
+.im-ita-footer{
+    width: 10%;
+}
+
+.ita{
+    vertical-align: text-bottom;
+    color: white;
+}
+
+.fa {
+    font-size: 25px;
+    width: 35px;
+    text-decoration: none;
+    padding-top: 20px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    color: white;
+}
+
+.fa-twitter {
+    color: white;
+}
+
+.fa-youtube {
+    color: white;
+}
+
+.fa-instagram {
+    color: white;
+}
+
 footer .col{
-    border: 1px dashed white;
     flex-grow: 1;
-    background-color: #20b2aa;
-    min-height: 300px;
 }
 
 footer .col-large{
     width: 15%;
-    background-color: #f08080;
     border-color: black;
+}
+
+.col ul{
+    list-style: none;
+}
+
+.col ul a{
+    display: inline-block;
+    padding: 0 .3rem;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.col .violet{
+    color: #7289da;
 }
 
 footer hr{
     margin-top: 1.4rem;
     margin-bottom: 1rem;
+    border-color: #48557e;
+    width: 980px;
+}
+.footer-hr{
+    max-width: 980px;
+    margin: auto;
 }
 
 .secondary-footer{
-    background-color: #7fffd4;
     padding: 1rem 0;
     display: flex;
     justify-content: space-between;
@@ -219,7 +300,6 @@ footer hr{
 
 .footer-logo,
 .footer-btn{
-    border: 1px dashed black;
-    background-color: #f08080;
     padding: 0.5rem;
 }
+
