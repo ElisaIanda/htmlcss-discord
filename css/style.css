@@ -71,7 +71,10 @@ header nav .container{
     border: none;
 }
 .btn-small{
-    /* min-width: 70px; */
+    height: 30px;
+    line-height: 10px;
+    margin-left: 50px;
+    min-width: 60px;
 }
 
 .hero-section{
@@ -87,7 +90,7 @@ header nav .container{
     min-height: 350px;
 }
 .container h1{
-    font-size: 40px;
+    font-size: 50px;
     text-align: center;
     margin-bottom: 1.8rem;
     color: #ffffff;
@@ -105,6 +108,12 @@ header nav .container{
 .btn-big-black{
     background-color: #23272a;
     color: white;
+    height: 40px;
+    font-size: 15px;
+}
+.btn-big-white{
+    height: 40px;
+    font-size: 15px;
 }
 
 section{
@@ -112,34 +121,75 @@ section{
     padding-bottom: 2rem;
 }
 
-footer{
-    background-color:#23272a ;
-    padding-top: 6px;
-}
-
 .row{
     display: flex;
 }
 
-.col-large, .col-small{
-    border: 1px dashed black;
-    min-height: 300px;
+.col-small h2{
+    font-size: 45px;
+    padding-top: 40px;
+}
+
+.col-small p{
+    text-align: left;
+    color: #23272a;
+    padding-top: 40px;
+    line-height: 1.5em;
 }
 
 .col-large{
-    width: 60%;
-    background-color: #1e90ff;
+    flex-grow: 1;
 }
 
-.col-small{
-    width: 40%;
-    background-color: #ffc0cb ;
-}
-
-.box-green{
+.last-section-main{
     border: 1px dashed black;
-    min-height: 500px;
-    background-color: #228b22;
+    padding: 10px;
+}
+
+.last-section-main h2{
+    font-size: 45px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.last-section-main p{
+    color: #23272a;
+    line-height: 1.5em;
+}
+
+.last-section-main img{
+    width: 100%;
+}
+
+.last-section-main h3{
+    font-size: 25px;
+    color: #23272a;
+    text-align: center;
+    padding-bottom: 20px;
+    background-image: url(../img/stars.svg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    padding-top: 10px;
+
+}
+.last-section-main-btn{
+    text-align: center;
+}
+
+.btn-violet{
+    background-color: #8ea1e1;
+    color: white;
+    height: 30px;
+    line-height: 10px;
+    font-size: 14px;
+}
+
+
+
+
+footer{
+    background-color:#23272a ;
+    padding-top: 6px;
 }
 
 footer .col{
